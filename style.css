@@ -1,0 +1,541 @@
+@font-face {
+    font-family: Inter ;
+    src: url("fonts/Inter/static/Inter_28pt-Regular.ttf");
+}
+
+html{
+    background: #0F0F0F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter ;
+    color: white;
+}
+
+.container{
+    width: 1288px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/*----header start  -------*/
+header{
+    background: url("img/header.png") no-repeat center #0F0F0F;    
+}
+
+header .container{
+    padding: 306px 0  64px 64px;
+    margin-top: 72px;
+
+}
+
+header h1{
+    color: white;
+    width: 615px; 
+}
+header span{
+    font-weight: 400;
+
+}
+.button{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width:209px ;
+    height: 64px;
+    background: linear-gradient(to right,#F06415, #FF9900);
+    border-radius: 64px;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    padding: 26px 50px;
+}
+header .button{
+    margin-top:32px;
+}
+
+/*----header end  -------*/
+
+/*-----body start-------*/
+/*---main start---*/
+/*----1 section----*/
+.advantages{
+    display: flex;
+    gap: 264px;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.icon{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.icon1{
+    background: url("img/icon1.png")
+    no-repeat;
+    
+}
+
+.icon2{
+    background: url("img/icon2.png")
+    no-repeat;
+}
+
+.icon3{
+    background: url("img/icon3.png") no-repeat;
+    
+}
+.txtadvantages{
+    width: 141px;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D6D6D6;
+}
+/*-----1 section----*/
+/*-----2 section----*/
+.catalog{
+font-size: 36px;
+font-weight: 500;
+padding: 64px 0 0 64px;
+font-weight: 500;
+}
+
+.services{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.backservices{
+    background: #151515;
+    width: 560px;
+    height: 690px;
+    border-radius: 16px;
+    margin-top: 48px;
+    padding: 32px;
+    display: flex;
+flex-direction: column;
+}
+
+.backservices h3, .servicestxt, .felexcontentservices, .buttonservices {
+    margin-left: 11px;
+}
+
+.backservices h3{
+  
+    font-size: 24px;
+    font-weight: 500;
+}
+.imgservices{
+    background: url("img/house1.png") no-repeat;
+    width: 496px;
+    height: 290px;
+    margin-bottom:32px;
+    background-size: cover;
+}
+
+.servicestxt{
+    font-size: 16px;
+    margin-top: 12px;
+    width: 334px;
+    height: 66px;
+    color: #B2B2B2; ;
+}
+
+.felexcontentservices{
+    margin-top:24px ;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 16px;
+}
+.flexservices{
+    gap: 16px;
+    font-size: 12px;
+    display: flex;
+    margin-top: 18px;
+}
+.columnservices{
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+}
+.columnservices DIV {
+    display: flex;
+    justify-content: space-between;
+}
+.margintxt{
+    margin-top:16px ;
+}
+
+.iconhouse{
+    background: url(img/iconhouse.png);
+    width: 24px;
+    height: 23px;
+}
+.iconprice{
+    background: url(img/iconprice.png);
+    width: 24px;
+    height: 23px;
+    
+}
+.buttonservices{
+    display: block;
+    background: linear-gradient(to right,#F06415, #FF9900);
+    margin-top: 27px;
+    font-size: 12px;
+    width: 176px;
+    height: 56px;
+    border-radius: 64px;
+    text-decoration: none;
+    padding:22px 34px ;
+}
+
+
+.backform{
+    background: #151515;
+    margin-top: 128px;
+    border-radius:16px;
+    height:546px ;
+}
+
+.backform{
+    display: flex;
+    gap: 200px;
+    padding: 64px 0 0 64px;
+
+}
+
+.backform h2{
+    font-size: 36px;
+    font-weight: 600;
+    width: 534px;
+    height: 94px;
+}
+.phoneimg{
+    background: url("img/img.png") no-repeat;
+    width: 426px;
+
+}
+.textform{
+    font-size:16px;
+    margin-top: 24px;
+    width: 410px;
+    height: 66px;
+    font-weight:400;
+    color: #B2B2B2;
+}
+#tel{
+    margin-top:24px;
+    width:360px;
+    height: 64px;
+    border-radius:64px;
+    background: #222222;
+    border:none;
+    padding: 21px  186px  21px 50px ;
+    color:#6B6B6B;
+}
+
+.flexform{
+    display: flex;
+    gap: 20px;
+    margin-top:24px;
+}
+.text12px{
+
+    width: 16px;
+    height: 16px;
+    font-size: 12px; 
+    color: #4E4E4E;
+}
+.label{
+
+    font-size:12px ;
+}
+.whatsapp{
+    background:url("img/ws.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.flex{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.lockimg{
+    background:url("img/lock.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    
+}
+.confidenceflex{
+    
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    
+}
+
+.confidence{
+    width:335px;
+    color:#6B6B6B;
+}
+/*----main end---*/
+
+.constructback{
+    margin-top: 128px;
+    display: flex;
+    gap: 20px;
+   background:  #181818;
+   border-radius: 16px;
+   padding: 40px 114px 39px 0;
+}
+.houseimgconstruct{
+    background: url('img/house.png') no-repeat;
+    width: 1920px;
+    height: 673px;
+}
+.constructtextflex{
+    display: flex;
+    flex-direction: column;
+    gap: 25.5px;
+    flex-wrap: wrap;
+}
+.constructtextflex article {
+    display: flex;
+    gap: 24px;
+    
+}
+.constructmargin{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.buttonplus{
+    background: url("img/plus.png");
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.constructtextflex h3{
+    font-size: 24px;
+    font-weight:600;
+}
+.constructtext{
+    color: #B3B3B3;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+
+.flexblock{
+    display: flex;
+    gap: 40px;
+    margin-top:58px ;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.block {
+    width: 360px;
+    height: 168px;
+}
+.block1{
+    background: url('img/imageblock1.png') no-repeat;
+}
+.block2{
+    background: url('img/imageblock2.png');
+}
+.block3{
+    background: url('img/imageblock3.png');
+}
+.textcenter{
+    text-align: center;
+    padding: 50px;
+    padding: 62px 32px;
+    font-size: 18px;
+}
+
+
+.backcompany{
+    margin-top: 58px;
+    background: #181818;
+    height: 363px;
+    border-radius:16px ;
+    padding: 64px 0 0 64px;
+}
+.textcompany{
+    margin-top: 32px;
+    color: #838383;
+    width: 497px;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+.backcompany h2{
+    font-size: 36px;
+}
+
+
+footer{
+    margin-top: 128px;
+    padding: 0 224px 70px 140px;
+}
+
+.flexable{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    
+}
+
+.telegram{
+    background: url('img/telegram.png') no-repeat;
+    background-size: cover;
+}
+.vk{
+    background: url("img/vk.png")no-repeat;
+}
+.wapp{
+    background:url("img/ws.png") no-repeat center center #151515;
+    border-radius: 8px;
+}
+.flexfottersocial{
+    display: flex;
+    gap: 16px;
+}
+.flexfottersocial div {
+    width:48px;
+    height: 48px;
+}
+/*----body end----*/
+.blackbutton{
+    display: block;
+    border-radius: 64px;
+    font-size: 12px;
+    width: 209px;
+    height: 64px;
+    border: solid #454545 1px;
+    text-decoration: none;
+    padding:26px 34px 26px 34px;
+    
+}
+.foottext{
+    color: #838383;
+    font-size: 16px;
+}
+.textelem{
+    margin-top: 16px;
+}
+.footelem{
+    font-size: 18px;
+}
+@media screen and (min-width:400px) and (max-width:720px) {
+    .container, section .container, .backservices {
+        width:100%
+    }
+    header .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 306px 64px 64px 64px;
+    
+    }
+    h1{
+        font-size: 24px;
+    }
+    .advantages{
+        gap: 0px;
+    }
+    .txtadvantages{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .backform h2{
+        font-size: 18px;
+        font-weight: 600;
+        width: 534px;
+        height: 94px;
+    }
+    .textform{
+        font-size:12px;
+        margin-top: 24px;
+        width: 300px;
+        height: 66px;
+        font-weight:400;
+        color: #B2B2B2;
+    }
+    #tel{
+        margin-top:24px;
+        font-size: 12px;
+        height: 64px;
+        border-radius:64px;
+        background: #222222;
+        border:none;
+        width: 300px;
+        padding: 21px  0px  21px 50px ;
+        color:#6B6B6B;
+    }
+
+    .phoneimg{
+        display: none;
+    }
+    .constructback{
+        padding-left: 65px;
+    }
+    .houseimgconstruct{
+        display: none;
+    }
+    .textcompany{
+        font-size: 14px;
+        width: 340px; 
+    }
+
+    .flexable{
+        flex-wrap: wrap;
+    }
+
+    .foottext{
+        font-size: 16px;
+    }
+    .footelem{
+        font-size: 16px;
+    }
+    footer{padding: 0 0 64px 0}
+    .confidence{
+        width: 320px;
+    }
+    .imgservices{
+        background: url("img/house1.png") no-repeat;
+        width: 339px;
+        height: 200px;
+        margin-bottom:32px;
+        background-size: cover;
+    }
+    .center{
+        text-align: center;
+    }
+    .flexform{
+        flex-direction: column;
+    }
+
+    .backservices{
+        justify-content: center;
+    }
+}
