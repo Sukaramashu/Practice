@@ -446,7 +446,7 @@ footer{
 .footelem{
     font-size: 18px;
 }
-@media screen and (min-width:400px) and (max-width:720px) {
+@media screen and (min-width:375px) and (max-width:720px) {
     .container, section .container, .backservices {
         width:100%
     }
